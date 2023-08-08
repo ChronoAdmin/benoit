@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/title.module.css";
+import styles from "@/styles/Title.module.css";
 import {IoIosArrowDropdown} from "react-icons/io"
 
 const Title = () => {
