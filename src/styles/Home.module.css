@@ -1,0 +1,45 @@
+.main {
+  background-color: rgb(50, 205, 146);
+  width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index:9999;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+
+.main video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  position: fixed;
+  width: 500px;
+  /* z-index: 10; */
+}
+
+.main::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 11;
+}
+
+.main h1 {
+  position: relative;
+  z-index: 13;
+}
+
+.sections {
+  background-image: url(/section2_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 14;
+}

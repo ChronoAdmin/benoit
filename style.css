@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.wrap {
+    max-width: 1200px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* header------------------------------------------------------------- */
+
+header {
+    height: 100vh;
+    background-image: url(https://code-step.com/demo/html/store1/img/mainvisual.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    line-height: 1;
+}
+
+/* main------------------------------------------------------------- */
+
+#magazine {
+    background-color: rgb(50, 205, 135);
+    height: 100vh;
+    width: 100%;
+}
+
+.box {
+    height: 300px;
+    background-color: red;
+    width: 100%;
+}
+
+#fashion {
+    background-image: url(https://code-step.com/demo/html/store1/img/fashion.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 520px;
+    text-align: center;
+}
+
+.catalog-antique {
+    height: 50vh;
+    background-color: steelblue;
+}
+
+.table-item {
+    width: 100%;
+}
+
+.table1 {
+    display: flex;
+    font-size: 12px;
+    height: 100%;
+}
+
+
+.table1:nth-child(1) {
+    border-bottom: solid 1px #c3c3c3;
+}
+
+.table1:nth-child(2) {
+    border-bottom: solid 1px #c3c3c3;
+}
+
+.table1:nth-child(3) {
+    border-bottom: solid 1px #c3c3c3;
+}
+
+.table1 span {
+    padding: 10px;
+    line-height: 1; 
+}
+
+.table1 span:nth-child(1) {
+    width: 20%;
+    border-right: solid 1px #c3c3c3;
+}
+
+.table1 span:nth-child(2) {
+    width: 20%;
+    border-right: solid 1px #c3c3c3; 
+}
+
+.table1 span:nth-child(3) {
+    width: 60%;
+}
+
+.table1 select {
+    width: 99%;
+    height: 50px;
+    border-color: #c3c3c3;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}

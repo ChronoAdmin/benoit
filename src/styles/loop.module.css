@@ -1,0 +1,29 @@
+.wrap{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-inline: auto;
+  }
+  
+  .wrap .loops {
+    animation: loop 10s linear infinite;
+    width: 100%;
+    font-size: 50px;
+  }
+  
+  .loop2{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    animation: loop 10s -5s linear infinite !important;
+  }
+  
+  @keyframes loop {
+    0%{
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }

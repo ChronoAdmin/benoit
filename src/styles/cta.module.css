@@ -1,0 +1,34 @@
+.wrap {
+    height: 20vh;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 5%;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    transition: all .3s ease;
+    padding: 15px 30px;
+}
+
+.contact a:nth-child(1){
+    background: linear-gradient(to top, #004c0d, #126e27, #237f2b);
+}
+
+.contact a:hover {
+    transform: scale(1.051);
+}
+
+

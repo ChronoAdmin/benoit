@@ -1,0 +1,38 @@
+.wrap {
+    position: relative;
+    padding: 4% 2%;
+    z-index: 14;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.title span {
+    font-size: 2rem;
+    color: #D8B88B;
+    text-shadow: 0 0 5px #d8b88b7e;
+}
+
+.beforeAfter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 3vw;
+    margin-bottom: 5vw;
+}
+
+.beforeAfter:last-child{
+    margin-bottom: 0;
+}
+
+.before img {
+    height: 150px;
+    width: 150px;
+}
+
+.before,.after {
+    text-align: center;
+}
